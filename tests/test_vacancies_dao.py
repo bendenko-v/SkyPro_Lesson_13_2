@@ -3,7 +3,7 @@ import pytest
 
 from app.vacancies.dao.vacancies_dao import VacanciesDAO
 
-path = os.path.join('..', 'data', 'vacancies.json')
+path = os.path.join('.', 'data', 'vacancies.json')
 
 keys_should_be = {"pk", "company", "position", "salary"}
 

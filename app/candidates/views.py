@@ -5,7 +5,7 @@ from .dao.candidates_dao import CandidateDAO
 
 candidates_bp = Blueprint('candidates_bp', __name__, template_folder="templates")
 
-path = os.path.join('..', 'data', 'candidates.json')
+path = os.path.join('.', 'data', 'candidates.json')
 
 candidates_dao = CandidateDAO(path)
 

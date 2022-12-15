@@ -3,7 +3,7 @@ import os
 
 from app.candidates.dao.candidates_dao import CandidateDAO
 
-path = os.path.join('..', 'data', 'candidates.json')
+path = os.path.join('.', 'data', 'candidates.json')
 
 
 @pytest.fixture()

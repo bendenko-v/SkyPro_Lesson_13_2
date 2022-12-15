@@ -5,7 +5,7 @@ from .dao.vacancies_dao import VacanciesDAO
 
 vacancies_bp = Blueprint('vacancies_bp', __name__, template_folder="templates")
 
-path = os.path.join('..', 'data', 'vacancies.json')
+path = os.path.join('.', 'data', 'vacancies.json')
 
 vacancies_dao = VacanciesDAO(path)
 
